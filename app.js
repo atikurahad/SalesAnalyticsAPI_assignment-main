@@ -35,7 +35,7 @@ app.use(express.urlencoded());
 
 
 //implementation of routes
-app.use("/api", router );
+app.use("/api/sales", router );
 
 
 async function connectToMongoDB() {
